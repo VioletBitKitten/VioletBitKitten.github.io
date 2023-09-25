@@ -31,6 +31,15 @@ github_username:  VioletBitKitten
 youtube_username:  VioletBitKitten
 show_drafts: true
 rss: rss
+header_pages:
+  - about.md
+  - tags.md
+
+# Collections
+collections:
+  tags:
+    output: true
+    sory_by: tag
 
 # Build settings
 theme: minima
@@ -50,7 +59,6 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.
