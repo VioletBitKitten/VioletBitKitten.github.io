@@ -1,4 +1,7 @@
 {
+    "[jekyll]": {
+        "editor.tabSize": 2
+    },
     "files.associations": {
         "*.html": "jekyll",
         "*.md": "jekyll"
