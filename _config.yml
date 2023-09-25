@@ -26,11 +26,16 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: my-site.github.io
 url: "https://VioletBitKitten.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: VioletBitKitten
-github_username:  VioletBitKitten
-youtube_username:  VioletBitKitten
 show_drafts: true
 rss: rss
+
+# Social Media
+twitter_username: VioletBitKitten
+github_username:  VioletBitKitten
+youtube_username:  "@VioletBitKitten"
+twitch_username: VioletBitKitten
+discord_url: "https://discord.gg/4ZQuQFEYht"
+
 header_pages:
   - about.md
   - tags.md
