@@ -11,7 +11,8 @@ The whole thing was [streamed on YouTube](https://www.youtube.com/watch?v=AIzAfY
 
 Go check out [Kelci](https://www.kelcidcrawford.com/). Their art is wonderful and they are amazing to work with.
 
-![Sketch from Kelci](/assets/posts/VioletBitKitten_Commission_web.png)
+[![Sketch from Kelci](/assets/posts/VioletBitKitten_Commission_web.png)](/assets/posts/VioletBitKitten_Commission_web.png)
+
 
 I originally posted this on [Twitter](https://twitter.com/VioletBitKitten/status/1706834188606009542).
 
