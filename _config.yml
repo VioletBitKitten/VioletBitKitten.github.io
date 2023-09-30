@@ -28,17 +28,16 @@ domain: my-site.github.io
 url: "https://VioletBitKitten.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 show_drafts: true
 rss: rss
-
-# Social Media
-twitter_username: VioletBitKitten
-github_username:  VioletBitKitten
-youtube_username:  "@VioletBitKitten"
-twitch_username: VioletBitKitten
-discord_url: "https://discord.gg/4ZQuQFEYht"
-
 header_pages:
   - about.md
   - tags.md
+
+# Social Media
+twitter_username: VioletBitKitten
+github_username: VioletBitKitten
+youtube_username: "@VioletBitKitten"
+twitch_username: VioletBitKitten
+discord_url: "https://discord.gg/4ZQuQFEYht"
 
 # Collections
 collections:
@@ -51,7 +50,15 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-remote-theme
+
+# Exclude files from the site.
+exclude:
+  - example.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - run.bat
 
 # From GitHub
 lsi: false
