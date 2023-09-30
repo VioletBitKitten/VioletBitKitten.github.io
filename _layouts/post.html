@@ -13,13 +13,19 @@ layout: default
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}
-      <br>
-      <span>Tags: [
-        {% for tag in page.tags %}
-          {% capture tag_name %}{{ tag }}{% endcapture %}
-          <a href="/tags/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
-        {% endfor %}
-      ]</span></p>
+      <span>
+        • Tags:
+        [
+          {% for tag in page.tags %}
+            {% capture tag_name %}{{ tag }}{% endcapture %}
+            <a href="/tags/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
+          {% endfor %}
+        ]
+      </span>
+      {%- if page.twitter -%}
+        &nbsp;• <a href="{{ page.twitter }}"><img src="https://img.shields.io/badge/Discuss_on_twitter-FFFFFF?logo=twitter"></a>
+      {%- endif -%}
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
