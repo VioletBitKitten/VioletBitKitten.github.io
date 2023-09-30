@@ -27,11 +27,10 @@ layout: default
               <a href="/tags/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
             {% endfor %}
           ]
-        </span>
         {%- if post.twitter -%}
-          &nbsp;• <a href="{{ post.twitter }}"><img src="https://img.shields.io/badge/Discuss_on_twitter-FFFFFF?logo=twitter"></a>
+            &nbsp;• <a href="{{ post.twitter }}"><img src="https://img.shields.io/badge/Discuss_on_twitter-FFFFFF?logo=twitter"></a>
         {%- endif -%}
-        <span>
+        </span>
 
         </p>
         <h3>
@@ -50,3 +49,7 @@ layout: default
   {%- endif -%}
 
 </div>
+
+{% if jekyll.environment == "production" %}
+  <!-- Production Environment -->
+{% endif %}
