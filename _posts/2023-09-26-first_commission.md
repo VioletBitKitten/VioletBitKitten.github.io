@@ -4,6 +4,7 @@ title:  My first commission
 author: Violet Bit Kitten
 date: 2023-09-26 21:23:12 -04
 tags: Meta Art
+twitter: https://twitter.com/VioletBitKitten/status/1706834188606009542
 ---
 My favorite artist [Kelci](https://www.kelcidcrawford.com/) drew me. My very first commission. It's so cute!
 
@@ -21,3 +22,5 @@ You can find Kelci at:
 * Twitter: [kelcidcrawford](https://twitter.com/kelcidcrawford)
 
 You should definitely sign up for their newsletter.
+
+Discuss this on [Twitter](https://twitter.com/VioletBitKitten/status/1706834188606009542).
