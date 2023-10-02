@@ -30,6 +30,7 @@ show_drafts: true
 rss: rss
 header_pages:
   - about.md
+  - tutorials.md
   - tags.md
 
 # Social Media
@@ -44,6 +45,8 @@ collections:
   tags:
     output: true
     sory_by: tag
+  tutorials:
+    output: true
 
 # Build settings
 theme: minima

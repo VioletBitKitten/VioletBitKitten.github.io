@@ -5,5 +5,8 @@
     "files.associations": {
         "*.html": "jekyll",
         "*.md": "jekyll"
-    }
+    },
+    "cSpell.words": [
+        "Streamlabs"
+    ]
 }
