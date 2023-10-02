@@ -1,9 +1,8 @@
 ---
-layout: post
+layout: tutorial
 title:  Using Touch Portal with VTube Studio
 author: Violet Bit Kitten
-tags: Tutorial
-twitter:
+twitter: https://twitter.com/VioletBitKitten/status/1708643217762312276
 show_excerpt: true
 excerpt_separator: <!--more-->
 ---
