@@ -4,7 +4,6 @@ title:  Using Touch Portal with VTube Studio
 author: Violet Bit Kitten
 tags: Tutorial
 twitter:
-toc: true
 show_excerpt: true
 excerpt_separator: <!--more-->
 ---
@@ -66,8 +65,6 @@ Some quirks of Touch Portal that you should be aware of.
   Other times the two applications are still communicating, but updates are not reflected.
   This situation can be resolved by restarting both applications.
 
-[Table of contents](#table-of-contents)
-
 ## Basic configurations
 
 This section covers basic usage of the TP_VTS plugin.
@@ -82,8 +79,6 @@ Note that you can select anything in the menu, but only hotkeys will work.
 
 ![Select Hotkey](/assets/tutorials/touch-portal-totorial/RunHotkey.png)
 
-[Table of contents](#table-of-contents)
-
 ### Set an expression state
 
 The TP_VTS plugin action `Set Expression State` will set the state of an expression to `On` or `Off`.
@@ -94,8 +89,6 @@ To select a hotkey add the action `Set Expression State`, use the `+` button to 
 Note that you can select anything in the menu, but only expressions will work.
 
 ![Set Expression State](/assets/tutorials/touch-portal-totorial/SetEspressionState.png)
-
-[Table of contents](#table-of-contents)
 
 ### Getting model data
 
@@ -118,20 +111,18 @@ Here you will find data requested for the currently loaded model
 Model Name: customizable final
 Model ID: 92909a752c3a4a5daec15bb4e7ab0e80
 
-Model Location: 
+Model Location:
     X = -0.6552083492279053
     Y = -2.220370292663574
     Rotation = 360.0
     Size = 4.857949256896973
 
-Hotkeys: 
+Hotkeys:
     Type: ToggleExpression
         Name: Angry
           ID: 4a8c61d9819441368c2e32c561536048
 ...
 ```
-
-[Table of contents](#table-of-contents)
 
 ### Moving the model
 
@@ -161,5 +152,3 @@ This lets you do things like create a button that shows the expression you are t
 Touch Portal wants images to be 256x256 pixels and in either JPEG, PNG or GIF formats.
 
 TO BE COMPLETED
-
-[Table of contents](#table-of-contents)
