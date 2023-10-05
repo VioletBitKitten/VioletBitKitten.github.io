@@ -44,7 +44,7 @@ discord_url: "https://discord.gg/4ZQuQFEYht"
 collections:
   tags:
     output: true
-    sory_by: tag
+    sort_by: tag
   tutorials:
     output: true
 
