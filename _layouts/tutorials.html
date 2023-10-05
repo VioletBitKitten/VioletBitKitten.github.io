@@ -5,10 +5,24 @@ layout: default
 <div class="home">
   {{ content }}
 
-  <ul>
+  <ul class="post-list">
     {%- for tutorial in site.tutorials -%}
     <li>
-        <a href="{{ tutorial.url | relative_url }}">{{ tutorial.title }}</a>
+        <span class="post-meta">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ tutorial.date | date: date_format }}
+        {%- if tutorial.author -%}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="post-meta" itemprop="name"> • {{ tutorial.author }}</span></span>
+        {%- endif -%}
+        {%- if tutorial.twitter -%}
+            &nbsp;• <a href="{{ tutorial.twitter }}"target="_blank" ><img src="https://img.shields.io/badge/Discuss_on_twitter-FFFFFF?logo=twitter"></a>
+        {%- endif -%}
+        </span>
+        <h3>
+          <a class="post-link" href="{{ tutorial.url | relative_url }}">
+            {{ tutorial.title | escape }}
+          </a>
+        </h3>
         {%- if tutorial.show_excerpt -%}
           {{ tutorial.excerpt }}
         {%- endif -%}
