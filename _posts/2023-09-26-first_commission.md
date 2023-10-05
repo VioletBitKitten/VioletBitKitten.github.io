@@ -1,10 +1,10 @@
 ---
-layout: post
-title:  My first commission
-author: Violet Bit Kitten
-date: 2023-09-26 21:23:12 -04
-tags: Meta Art
-twitter: https://twitter.com/VioletBitKitten/status/1706834188606009542
+layout:   post
+title:    My first commission
+author:   Violet Bit Kitten
+date:     2023-09-26 21:23:12 -04
+tags:     Meta Art
+twitter:  https://twitter.com/VioletBitKitten/status/1706834188606009542
 ---
 My favorite artist [Kelci](https://www.kelcidcrawford.com/) drew me. My very first commission. It's so cute!
 
