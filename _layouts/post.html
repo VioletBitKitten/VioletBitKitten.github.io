@@ -15,10 +15,10 @@ layout: default
       {%- endif -%}
       <span>
         • Tags:
-        [
-          {% for tag in page.tags %}
-            <a href="/tags/{{ tag }}.html"><nobr>{{ tag }}</nobr>&nbsp;</a>
-          {% endfor %}
+        [&nbsp;
+          {%- for tag in page.tags -%}
+            <a href="/tags/{{ tag }}.html">{{ tag }}</a>&nbsp;
+          {%- endfor -%}
         ]
       </span>
       {%- if page.twitter -%}

@@ -21,10 +21,10 @@ layout: default
         {%- endif -%}
         <span class="post-meta">
           • Tags:
-          [
-            {% for tag in post.tags %}
-              <a href="/tags/{{ tag }}.html"><nobr>{{ tag }}</nobr>&nbsp;</a>
-            {% endfor %}
+          [&nbsp;
+            {%- for tag in post.tags -%}
+              <a href="/tags/{{ tag }}.html">{{ tag }}</a>&nbsp;
+            {%- endfor -%}
           ]
         {%- if post.twitter -%}
             &nbsp;• <a href="{{ post.twitter }}"target="_blank" ><img src="https://img.shields.io/badge/Discuss_on_twitter-FFFFFF?logo=twitter"></a>
@@ -49,6 +49,6 @@ layout: default
 
 </div>
 
-{% if jekyll.environment == "production" %}
+{%- if jekyll.environment == "production" -%}
   <!-- Production Environment -->
-{% endif %}
+{%- endif -%}

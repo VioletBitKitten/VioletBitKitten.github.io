@@ -8,7 +8,7 @@ layout: default
   <ul>
     {%- for tutorial in site.tutorials -%}
     <li>
-        <a href="{{ tutorial.url | relative_url }}"><nobr>{{ tutorial.title }}</nobr></a>
+        <a href="{{ tutorial.url | relative_url }}">{{ tutorial.title }}</a>
         {%- if tutorial.show_excerpt -%}
           {{ tutorial.excerpt }}
         {%- endif -%}
