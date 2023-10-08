@@ -23,7 +23,7 @@ Much less than what it costs to buy even the smallest Stream Deck.
 * [Basic configurations](#Basicconfigurations)
 	* [Running a hotkey](#Runningahotkey)
 	* [Set an expression state](#Setanexpressionstate)
-	* [Getting model data](#Gettingmodeldata)
+	* [Displaying model data](#Displayingmodeldata)
 	* [Moving the model](#Movingthemodel)
 * [More complicated configurations](#Morecomplicatedconfigurations)
 	* [Combining actions](#Combiningactions)
@@ -92,7 +92,7 @@ This section covers basic usage of the TP_VTS plugin.
 
 ### <a name='Runningahotkey'></a>Running a hotkey
 
-The TP_VTS plugin action `Run Hotkey` will run any Hotkey in VTube Studio.
+The TP_VTS plugin action `Run Hotkey` ([Wiki page](https://wiccy.net/TP_VTS/doku.php?id=run_hotkey)) will run any Hotkey in VTube Studio.
 The Hotkeys do not need to have a key sequence assigned in order for them to be used.
 
 To select a hotkey add the action `Run Hotkey` then use the `+` button to select the hotkey.
@@ -102,16 +102,16 @@ Note that you can select anything in the menu, but only hotkeys will work.
 
 ### <a name='Setanexpressionstate'></a>Set an expression state
 
-The TP_VTS plugin action `Set Expression State` will set the state of an expression to `On` or `Off`.
+The TP_VTS plugin action `Set Expression State` ([Wiki Page](https://wiccy.net/TP_VTS/doku.php?id=set_expression_state)) will set the state of an expression to `On` or `Off`.
 Unlike using a Hotkey which will toggle an expression, this action will directly set the state of the expression.
 I use this for turning my models tail on and off.
 
-To select a hotkey add the action `Set Expression State`, use the `+` button to select the expression then select the state to `On` or `Off`.
+To set an expressions state the action `Set Expression State`, use the `+` button to select the expression then select the state to `On` or `Off`.
 Note that you can select anything in the menu, but only expressions will work.
 
 ![Set Expression State](/assets/tutorials/touch-portal-totorial/SetEspressionState.png)
 
-### <a name='Gettingmodeldata'></a>Getting model data
+### <a name='Displayingmodeldata'></a>Displaying model data
 
 The TP_VTS plugin action `Display Model Data` is extremely useful for moving your model.
 This action writes all of the model data to a text file and then opens the text file.
@@ -120,7 +120,7 @@ Most useful is the model location information, which can be used with the action
 The action takes no parameters so it can simply be added to a button.
 Note that the action displays the text `VTS: Not for normal code block use. ...` when used in a button.
 
-![Display Model Data Action](../assets/tutorials/touch-portal-totorial/ModelDisplayData.png)
+![Display Model Data Action](/assets/tutorials/touch-portal-totorial/DisplayModelData.png)
 
 Here is an example of the data this action will gather.
 There is much more data in this file.
@@ -147,7 +147,14 @@ Hotkeys:
 
 ### <a name='Movingthemodel'></a>Moving the model
 
-TO BE COMPLETED
+The TP_VTS plugin action `Move Model` ([Wiki Page](https://wiccy.net/TP_VTS/doku.php?id=move_model)) will move the model to a specific location and set the size and rotation.
+I use this for moving my model to specific locations for difference scenes while streaming.
+
+To move the model add the action `Move Model`, then set the parameters `X`, `Y`, `Rotation` and `Size` to the values retrieved using `Display Model Data`.
+The [Wiki Page](https://wiccy.net/TP_VTS/doku.php?id=move_model) for the action `Move Model` has a reference on these values.
+The parameters `Move Model: Time(s)` and `Relative` are not covered in this tutorial.
+
+![Move Model](/assets/tutorials/touch-portal-totorial/MoveModel.png)
 
 ## <a name='Morecomplicatedconfigurations'></a>More complicated configurations
 
