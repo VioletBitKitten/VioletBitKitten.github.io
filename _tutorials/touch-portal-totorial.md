@@ -29,6 +29,7 @@ Much less than what it costs to buy even the smallest Stream Deck.
 	* [Combining actions](#Combiningactions)
 	* [Getting the state of an expression](#Gettingthestateofanexpression)
 	* [Creating Twitch events](#CreatingTwitchevents)
+	* [Using Touch Portal Flows](#UsingTouchPortalFlows)
 * [Bonus: Creating custom Touch Portal Icons](#Bonus:CreatingcustomTouchPortalIcons)
 
 <!-- vscode-markdown-toc-config
@@ -169,6 +170,10 @@ TO BE COMPLETED
 TO BE COMPLETED
 
 ### <a name='CreatingTwitchevents'></a>Creating Twitch events
+
+TO BE COMPLETED
+
+### <a name='UsingTouchPortalFlows'></a>Using Touch Portal Flows
 
 TO BE COMPLETED
 
