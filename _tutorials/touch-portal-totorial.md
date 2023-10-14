@@ -16,29 +16,22 @@ Much less than what it costs to buy even the smallest Stream Deck.
 
 <!--more-->
 
-<!-- vscode-markdown-toc -->
-* [Introduction](#Introduction)
-* [Preparation](#Preparation)
-* [Touch Portal Quirks](#TouchPortalQuirks)
-* [Basic configurations](#Basicconfigurations)
-	* [Running a hotkey](#Runningahotkey)
-	* [Set an expression state](#Setanexpressionstate)
-	* [Displaying model data](#Displayingmodeldata)
-	* [Moving the model](#Movingthemodel)
-* [More complicated configurations](#Morecomplicatedconfigurations)
-	* [Combining actions](#Combiningactions)
-	* [Getting the state of an expression](#Gettingthestateofanexpression)
-	* [Creating Twitch events](#CreatingTwitchevents)
-	* [Using Touch Portal Flows](#UsingTouchPortalFlows)
-* [Bonus: Creating custom Touch Portal Icons](#Bonus:CreatingcustomTouchPortalIcons)
+* [Introduction](#introduction)
+* [Preparation](#preparation)
+* [Touch Portal Quirks](#touch-portal-quirks)
+* [Basic configurations](#basic-configurations)
+  * [Running a hotkey](#running-a-hotkey)
+  * [Set an expression state](#set-an-expression-state)
+  * [Displaying model data](#displaying-model-data)
+  * [Moving the model](#moving-the-model)
+* [More complicated configurations](#more-complicated-configurations)
+  * [Combining actions](#combining-actions)
+  * [Getting the state of an expression](#getting-the-state-of-an-expression)
+  * [Creating Twitch events](#creating-twitch-events)
+  * [Using Touch Portal Flows](#using-touch-portal-flows)
+* [Bonus: Creating custom Touch Portal Icons](#bonus-creating-custom-touch-portal-icons)
 
-<!-- vscode-markdown-toc-config
-	numbering=false
-	autoSave=true
-	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc -->
-
-## <a name='Introduction'></a>Introduction
+## Introduction
 
 [TP_VTS](https://wiccy.itch.io/tp-vts) is a plugin for [Touch Portal](https://www.touch-portal.com/) that interacts with [VTube Studio](https://denchisoft.com/).
 The TP_VTS plugin is donation ware and has a recommended donation of $2.00 US.
@@ -54,14 +47,14 @@ This plugin allows you to:
 [Touch Portal](https://www.touch-portal.com/) is a very useful tool.
 Functionally it is like a Stream Deck, except it runs on Android and Apple mobile devices.
 Android back to 5.1 and IOS back to 9.3 are supported, so you can make use of your old devices.
-To use plugins with Touch Portal you need to pau $13.99 US to upgrade to Pro.
+To use plugins with Touch Portal you need to pay $13.99 US to upgrade to Pro.
 Out of the box Touch Portal can also interact with [OBS](https://obsproject.com/), [Streamlabs Desktop](https://streamlabs.com/) and [Twitch](https://www.twitch.tv/).
 Giving you complete control over your streaming setup.
 
 [VTube Studio](https://denchisoft.com/) is software for Virtual YouTubers "VTubers" that animates a mode.
 Many VTubers use this software, including myself.
 
-## <a name='Preparation'></a>Preparation
+## Preparation
 
 From here on it is assumed you have:
 
@@ -74,7 +67,7 @@ From here on it is assumed you have:
 * [VTube Studio](https://denchisoft.com/) installed and configured with Plugins enabled.
   See the [VTube Studio Manual/Wiki](https://github.com/DenchiSoft/VTubeStudio/wiki) for help.
 
-## <a name='TouchPortalQuirks'></a>Touch Portal Quirks
+## Touch Portal Quirks
 
 Some quirks of Touch Portal that you should be aware of.
 
@@ -87,11 +80,11 @@ Some quirks of Touch Portal that you should be aware of.
   Other times the two applications are still communicating, but updates are not reflected.
   This situation can be resolved by restarting both applications.
 
-## <a name='Basicconfigurations'></a>Basic configurations
+## Basic configurations
 
 This section covers basic usage of the TP_VTS plugin.
 
-### <a name='Runningahotkey'></a>Running a hotkey
+### Running a hotkey
 
 The TP_VTS plugin action `Run Hotkey` ([Wiki page](https://wiccy.net/TP_VTS/doku.php?id=run_hotkey)) will run any Hotkey in VTube Studio.
 The Hotkeys do not need to have a key sequence assigned in order for them to be used.
@@ -101,7 +94,7 @@ Note that you can select anything in the menu, but only hotkeys will work.
 
 ![Select Hotkey](/assets/tutorials/touch-portal-totorial/RunHotkey.png)
 
-### <a name='Setanexpressionstate'></a>Set an expression state
+### Set an expression state
 
 The TP_VTS plugin action `Set Expression State` ([Wiki Page](https://wiccy.net/TP_VTS/doku.php?id=set_expression_state)) will set the state of an expression to `On` or `Off`.
 Unlike using a Hotkey which will toggle an expression, this action will directly set the state of the expression.
@@ -112,7 +105,7 @@ Note that you can select anything in the menu, but only expressions will work.
 
 ![Set Expression State](/assets/tutorials/touch-portal-totorial/SetEspressionState.png)
 
-### <a name='Displayingmodeldata'></a>Displaying model data
+### Displaying model data
 
 The TP_VTS plugin action `Display Model Data` is extremely useful for moving your model.
 This action writes all of the model data to a text file and then opens the text file.
@@ -146,7 +139,7 @@ Hotkeys:
 ...
 ```
 
-### <a name='Movingthemodel'></a>Moving the model
+### Moving the model
 
 The TP_VTS plugin action `Move Model` ([Wiki Page](https://wiccy.net/TP_VTS/doku.php?id=move_model)) will move the model to a specific location and set the size and rotation.
 I use this for moving my model to specific locations for difference scenes while streaming.
@@ -157,27 +150,27 @@ The parameters `Move Model: Time(s)` and `Relative` are not covered in this tuto
 
 ![Move Model](/assets/tutorials/touch-portal-totorial/MoveModel.png)
 
-## <a name='Morecomplicatedconfigurations'></a>More complicated configurations
+## More complicated configurations
 
 More complicated buttons to control VTube Studio.
 
-### <a name='Combiningactions'></a>Combining actions
+### Combining actions
 
 TO BE COMPLETED
 
-### <a name='Gettingthestateofanexpression'></a>Getting the state of an expression
+### Getting the state of an expression
 
 TO BE COMPLETED
 
-### <a name='CreatingTwitchevents'></a>Creating Twitch events
+### Creating Twitch events
 
 TO BE COMPLETED
 
-### <a name='UsingTouchPortalFlows'></a>Using Touch Portal Flows
+### Using Touch Portal Flows
 
 TO BE COMPLETED
 
-## <a name='Bonus:CreatingcustomTouchPortalIcons'></a>Bonus: Creating custom Touch Portal Icons
+## Bonus: Creating custom Touch Portal Icons
 
 Touch Portal allows you to use an image for buttons.
 This lets you do things like create a button that shows the expression you are toggling.
