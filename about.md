@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![](/assets/images/ProfileBannerGitHub.png)
+![Banner showing VioletBitKitten](/assets/images/ProfileBannerGitHub.png)
 
 Hello, I'm @VioletBitKitten. The VTuber/Developer persona for an IT professional and hobby developer. My pronouns are She/Her
 

@@ -4,5 +4,5 @@
 
 layout: home
 ---
-![](/assets/images/ProfileBannerGitHub.png)
+![Banner showing VioletBitKitten](/assets/images/ProfileBannerGitHub.png)
 
